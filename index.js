@@ -1271,7 +1271,7 @@ break
             case 'out':
                 if (!m.isGroup) return reply(lang.groupOnly())
                 if (!m.key.fromMe && !isCreator) return reply(lang.ownerOnly())
-               reply('Sayonara~ 👋').then(async res => await alpha.groupLeave(from))
+               reply('Ikan Paus Minum Solar').then(async res => await alpha.groupLeave(from))
             break
             case 'group': case 'grup':
                 if (!m.isGroup) return reply(lang.groupOnly())
